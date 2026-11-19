@@ -1,8 +1,8 @@
 class Soundbar < Formula
   desc "Menu bar app that pins one window, dims the rest, and times the session"
   homepage "https://github.com/quannh287/soundbar"
-  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.9.2.tar.gz"
-  sha256 "0f49d338426e0a2da7a1f3df117b0867d851b7bc8ba9bf9e7579e08e07405d1a"
+  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "c7cbb7b2f7a5aa0035418b7391af20ddd69f6cd94942b49ae7d4257c2f2c74c0"
   license "MIT"
   head "https://github.com/quannh287/soundbar.git", branch: "main"
 
@@ -21,7 +21,9 @@ class Soundbar < Formula
       Then turn on "Open at Login" from the ⋯ menu so it comes back after a reboot.
 
       Focus mode needs no permissions. Grant Screen Recording only if you want
-      the window list to show window titles instead of app names.
+      the window list to show window titles instead of app names, and
+      Accessibility only if you tick "Full screen while focusing" — that grant
+      has to be switched on again after every upgrade.
     CAVEAT
   end
 

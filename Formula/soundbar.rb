@@ -1,8 +1,8 @@
 class Soundbar < Formula
-  desc "Menu bar mixer for Apple's built-in Background Sounds"
+  desc "Menu bar app that pins one window, dims the rest, and times the session"
   homepage "https://github.com/quannh287/soundbar"
-  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.6.1.tar.gz"
-  sha256 "051d16e738c4e9ce758237d918a2467f9f3b4c089e63b141e12f9baa6b18e988"
+  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "f8c230fa93c9a3af1055ee218186721abc2c8b3b657a5f1acaec8f5aa8dba0d9"
   license "MIT"
   head "https://github.com/quannh287/soundbar.git", branch: "main"
 
@@ -19,6 +19,9 @@ class Soundbar < Formula
         open #{opt_prefix}/SoundBar.app
 
       Then turn on "Open at Login" from the ⋯ menu so it comes back after a reboot.
+
+      Focus mode needs no permissions. Grant Screen Recording only if you want
+      the window list to show window titles instead of app names.
     CAVEAT
   end
 

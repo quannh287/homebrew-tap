@@ -1,8 +1,8 @@
 class Soundbar < Formula
   desc "Menu bar mixer for Apple's built-in Background Sounds"
   homepage "https://github.com/quannh287/soundbar"
-  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "e9a2ebef8d38ec515e96da3175bf1b6e3335a6f121345be9353535c1c4edaaec"
+  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "2c7988aeae1a747a97e9d685ffdb582386f2c29a888c268fcb15380590edf866"
   license "MIT"
   head "https://github.com/quannh287/soundbar.git", branch: "main"
 

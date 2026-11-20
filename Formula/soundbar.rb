@@ -1,8 +1,8 @@
 class Soundbar < Formula
   desc "Menu bar app that pins one window, dims the rest, and times the session"
   homepage "https://github.com/quannh287/soundbar"
-  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.11.0.tar.gz"
-  sha256 "a07a57cd888da300b9d6f1640273c2d280577b4b7082aca7f34fd96e90969c8f"
+  url "https://github.com/quannh287/soundbar/archive/refs/tags/v0.11.1.tar.gz"
+  sha256 "3dd6c5ed00de23e16bc685b81f1732113d2e27f3764526b3ec173c0433170b1d"
   license "MIT"
   head "https://github.com/quannh287/soundbar.git", branch: "main"
 
